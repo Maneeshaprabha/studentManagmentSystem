@@ -32,7 +32,11 @@ public class Assignment {
     @Column(name = "assignments")
     private byte[] assignments;
 
+    @Column(name = "filePath")
+    private String filePath;
 
     @Transient
     private MultipartFile file;
+
+
 }
